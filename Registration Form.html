@@ -1,0 +1,63 @@
+
+<!-- saved from url=(0055)file:///C:/Users/dhars/Desktop/HTML%20DEMO/SAMPLE.html# -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>Registration Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('download (1).jpg') no-repeat center center/cover;
+        }
+        .container {
+            text-align: center;
+            padding: 50px;
+            border: 3px solid #ccc;
+            border-radius: 30px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            background: rgba(255, 255, 255, 0.8);
+        }
+        form {
+            display: inline-block;
+            text-align: left;
+        }
+        .title {
+            color: black;
+        }
+        label {
+            color:purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">Registration Form</h2>
+        <form action="file:///C:/Users/dhars/Desktop/HTML%20DEMO/SAMPLE.html#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required=""><br><br>
+            
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required="">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required="">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other" required="">
+            <label for="other">Other</label><br><br>
+            
+            <label for="city">City:</label>
+            <select id="city" name="city" required="">
+                <option value="">Select your city</option>
+                <option value="KARUR">KARUR</option>
+                <option value="MADURAI">MADURAI</option>
+                <option value="CHENNAI">CHENNAI</option>
+                <option value="COIMBATORE">COIMBATORE</option>
+            </select><br><br>
+            
+            <input type="submit" align="center" value="REGISTER">
+        </form>
+    </div>
+
+</body></html>
